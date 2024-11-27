@@ -1,0 +1,83 @@
+body{
+  background-color: beige;
+}
+nav {
+  background: darkslategrey;
+  height: 90px;
+  width: 100%;
+}
+
+label.logo{
+  color: beige;
+  font-size: 27px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 15px;
+  display: flex;
+}
+ 
+ nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+ }
+ nav ul li a{
+  color: beige;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+ }
+
+ a.active,a:hover{
+  background:  brown;
+  transition: .5s;
+ }
+ .checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 60px;
+  margin-right: 20px;
+  cursor: pointer;
+ }
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 5px;
+}
+h1 {
+  color: darkslategrey;
+  font-size: 80px;
+  text-align: right;
+  font-family: monospace;
+}h2 {
+  color: darkslategrey;
+  font-size: 30px;
+  text-align: left;
+  font-family: monospace;
+}
+div {
+  font-size: 25px;
+  color: white;
+  text-align: justify;
+  justify-content: left;
+  background-color:darkslategrey ;
+  border:25PX blueviolet ;
+  padding:50PX ;
+  margin: 20PX;
+  
+}
+ul {
+    list-style-type: disc; 
+    padding-left: 20px;
+    font-family: monospace; 
+    color: white; 
+    font-size: 25px;
+    margin-bottom: 110px;
+    margin-top: -10px;
+}
